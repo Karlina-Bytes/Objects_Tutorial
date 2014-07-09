@@ -30,6 +30,16 @@ Bike::Bike( string brand, string model, double price, double speed )
     this -> speed = speed;
 }
 
+// Copy constructor creates a Bike object clone.
+// The "dot operator" returns an attribute of the object.
+Bike::Bike( Bike & object )
+{
+    this -> brand = object.brand;
+    this -> model = object.model;
+    this -> price = object.price;
+    this -> speed = object.speed;
+}
+
 // Getter returns the brand of the Bike object.
 string Bike::getBrand()
 {
