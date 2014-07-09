@@ -39,7 +39,8 @@ int main()
     cout << "In 15 minutes, Bike A travels ";
     cout << A.getDistance( 15 ) << " miles.\n\n";
     
-    // Create a copy of Bike object B named C...\n";
+    // Create a copy of Bike object B name C.
+    cout << "Create a copy of Bike object B named C...\n";
     Bike C( B );
     cout << "Displaying contents of copy of C...";
     C.print();
