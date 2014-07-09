@@ -31,40 +31,40 @@ private:
 // Bike behaviors (a.k.a. methods)
 //-----------------------------------------------------------------
 public:
-    // Default construcor creates a generic bike object.
+    // Default constructor creates a generic bike object.
     Bike();
     
-    // Normal construcor creates a custom bike object.
+    // Normal construcor creates a custom Bike object.
     Bike( string brand, string model, double price, double speed );
     
-    // Getter returns the brand of the bike object.
+    // Getter returns the brand of the Bike object.
     string getBrand();
     
-    // Getter returns the model of the bike object.
+    // Getter returns the model of the Bike object.
     string getModel();
     
-    // Getter returns the price of the bike object.
+    // Getter returns the price of the Bike object.
     double getPrice();
     
-    // Getter returns the speed in mph of the bike object.
+    // Getter returns the speed in mph of the Bike object.
     double getSpeed();
     
-    // Getter computes the distance covered by the bike.
+    // Getter computes the distance covered by the Bike.
     double getDistance( double minutes );
     
-    // Getter prints a summary of the bike object's state.
+    // Getter prints a summary of the Bike object's state.
     void print();
     
-    // Setter changes the brand of the bike object.
+    // Setter changes the brand of the Bike object.
     void setBrand( string brand );
     
-    // Setter changes the model of the bike object.
+    // Setter changes the model of the Bike object.
     void setModel( string model );
     
-    // Setter changes the price of the bike object.
+    // Setter changes the price of the Bike object.
     void setPrice( double price );
     
-    // Setter changes the speed of the bike object.
+    // Setter changes the speed of the Bike object.
     void setSpeed( double speed );
     
     // Destructor is called when the program terminates.
