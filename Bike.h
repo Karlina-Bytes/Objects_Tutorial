@@ -31,11 +31,14 @@ private:
 // Bike behaviors (a.k.a. methods)
 //-----------------------------------------------------------------
 public:
-    // Default constructor creates a generic bike object.
+    // Default constructor creates a generic Bike object.
     Bike();
     
     // Normal construcor creates a custom Bike object.
     Bike( string brand, string model, double price, double speed );
+    
+    // Copy constructor creates a Bike object clone.
+    Bike( Bike & object );
     
     // Getter returns the brand of the Bike object.
     string getBrand();
