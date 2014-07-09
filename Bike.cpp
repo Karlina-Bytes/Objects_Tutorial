@@ -4,7 +4,7 @@
 //
 //  Created by Karlina Beringer on July 8, 2014.
 //
-//  This header file contains the Bike class definition.
+//  This source file contains the Bike class definition.
 //  Bike objects model bicycles in the real world.
 //*****************************************************************
 
